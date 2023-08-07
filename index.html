@@ -1,3 +1,457 @@
-Hello World! 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">    
 
-Welcome to josephtkim's GitHub pages.
+    <link rel="stylesheet" type="text/css" href="./resources/style.css" >
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    
+    <!-- Font awesome for icons -->
+    <link rel="stylesheet" href="./resources/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <title>Joseph Kim</title>
+  </head>
+  <body>
+    <div class="site-container">
+      <!-- Header section -->
+      <nav class="navbar navbar-expand-sm navbar-light">               
+        <a class="navbar-brand">
+          <img id="logo" src="./resources/img/logo.png">
+        </a>        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item nav-item-one">              
+              <a class="nav-link" href="#" id="home-button">Home</a>
+            </li>
+            <li class="nav-item nav-item-two">
+              <a class="nav-link" href="#" id="about-button">About</a>
+            </li>
+            <li class="nav-item nav-item-three">
+              <a class="nav-link" href="#" id="projects-button">Projects</a>
+            </li>
+            <li class="nav-item nav-item-four">   
+              <a class="nav-link" href="#" id="contact-button">Links</a>
+            </li>
+          </ul>
+        </div>
+      </nav>      
+      
+      <!-- Intro section -->
+      <div class="container" id="home-page-main">
+        <div class="container" id="intro-section">
+          <div class="intro-column">
+            <div class="intro-heading">Hi, my name is Joseph</div>
+            
+            <div class="intro-text">
+              I'm a Software Engineer with a passion for Machine Learning and AI.<br /><br />
+            </div>
+                        
+          </div>
+        </div>
+      </div>
+      
+      <!-- About section -->
+      <div class="container" id="about">
+        <div class="about-container">
+          <div class="about-column">
+            <div class="about-heading">About</div>
+
+            <div class="about-content">
+			  Hello there! I'm Joseph Kim. I have over 5 years of experience in tech; over 4 years spent in edtech and 1.5 years as a Software Engineer. 
+			  I have a strong passion for Machine Learning and AI and looking for an opportunity to break into the field.<br /><br />
+			
+              I studied Mathematics and Physics at the <a class="colored-link" href="https://www.psu.edu/" target="_blank">Pennsylvania State University</a>,
+			  and after graduating I moved to California to visit family, and have been here ever since. <br /><br />
+              
+              After moving to California, I taught myself programming for several months, and then joined <a class="colored-link" href="https://www.codecademy.com" target="_blank">Codecademy</a>, 
+			  where I authored content on the platform and helped people from around the world learn how to code in live online chat sessions.<br /><br />
+
+			  Following my time at Codecademy, I started my Software Engineering career at <a class="colored-link" href="https://www.google.com" target="_blank">Google</a>, 
+			  where I worked on the Google Ads High-Touch Support team. During that time, I gained a strong interest in Machine Learning and AI. I was involved with ML teams and
+			  attended paper readings, received one-on-one monthly mentorship from a Staff Machine Learning Software Engineer, and studied Machine Learning theory. <br /><br />
+			  
+			  Outside of work, I enjoy reading, running, exercising, cooking, and learning new things.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project section -->
+      <div class="container" id="projects">
+        <div id="project-page-main">
+          <div class="projects-column">
+            <div class="project-page-heading">Projects</div>
+
+            <!-- Container for all projects -->              
+            <div class="projects-container" id="latest-projects">
+
+			  <!-- Machine Learning projects -->
+			  <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://github.com/josephtkim/neural-style-transfer" target="_blank">
+                  <img src="./resources/img/neural_style_transfer.png" width="100%" alt="Neural Style Transfer"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">Neural Style Transfer</div>
+                     
+                  <div class="project-languages">          
+					<span class="language-python language-tab">Python</span>
+                    <span class="cnn language-tab">CNN</span>
+                    
+                  </div>
+
+                  <div class="project-description">
+                    Utilized pre-trained VGG-19 model to generate images that combine content and style of two images.
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://github.com/josephtkim/neural-style-transfer" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+			  
+			  <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://github.com/josephtkim/NLP-tweet-sentiment-analysis" target="_blank">
+                  <img src="./resources/img/tweet_sentiment.png" width="100%" alt="Tweet Sentiment Analysis"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">Tweet Sentiment Analysis</div>
+                     
+                  <div class="project-languages">          
+					<span class="language-python language-tab">Python</span>
+                    <span class="nlp language-tab">NLP</span>
+					<span class="transformer language-tab">Transformer</span>
+                                          
+                  </div>
+
+                  <div class="project-description">
+                    Tweet sentiment classification using a Transformer-based encoder and a pre-trained BERT model.
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://github.com/josephtkim/NLP-tweet-sentiment-analysis" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+			  
+			  <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://huggingface.co/JosephTK/NLP-reviews" target="_blank">
+                  <img src="./resources/img/nlp_review.png" width="100%" alt="Review Multi-Label Classification"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">Review Multi-Label Classification</div>
+                     
+                  <div class="project-languages">          
+					<span class="language-python language-tab">Python</span>
+                    <span class="nlp language-tab">NLP</span>
+					<span class="transformer language-tab">Transformer</span>
+                                          
+                  </div>
+
+                  <div class="project-description">
+					Multi-label classification model for predicting both sentiment and grouping of a given text. 
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://huggingface.co/JosephTK/NLP-reviews" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://github.com/josephtkim/DCGAN-anime-faces" target="_blank">
+                  <img src="./resources/img/anime_faces.png" width="100%" alt="DCGAN Anime Faces"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">DCGAN Anime Face Generator</div>
+                     
+                  <div class="project-languages">
+					<span class="language-python language-tab">Python</span>               
+					<span class="cnn language-tab">CNN</span>
+					<span class="gan language-tab">GAN</span>
+
+                  </div>
+
+                  <div class="project-description">
+                    Deep Convolutional GAN model architecture for generating anime faces.
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://github.com/josephtkim/DCGAN-anime-faces" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>                      
+					<!--
+                    <a href="./projects/super_polyspawn_wars" target="_blank">
+                      <div class="project-launch-link project-link-button">
+                      Project
+                      </div>
+                    </a>
+					-->
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+			  
+			  
+			  <!-- Software Engineering projects -->
+              <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://github.com/josephtkim/sudoku-solver" target="_blank">
+                  <img src="./resources/img/sudoku_solver.png" width="100%" alt="Sudoku Solver"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">Sudoku Solver</div>
+                     
+                  <div class="project-languages">          
+                    <span class="language-react language-tab">ReactJS</span>
+                    <span class="language-javascript language-tab">JavaScript</span>
+                    <span class="language-html language-tab">HTML</span>
+                    <span class="language-css language-tab">CSS</span>
+                    
+                  </div>
+
+                  <div class="project-description">
+                    React application for solving Sudoku grids using either brute force or the dancing links algorithm.
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://github.com/josephtkim/sudoku-solver" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>        
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://github.com/josephtkim/super-polyspawn-wars" target="_blank">
+                  <img src="./resources/img/super_polyspawn_wars.png" width="100%" alt="Super PolySpawn Wars"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">Super PolySpawn Wars</div>
+                     
+                  <div class="project-languages">
+                    <span class="language-unity language-tab">Unity</span>
+                    <span class="language-csharp language-tab">C#</span>
+
+                  </div>
+
+                  <div class="project-description">
+                    Space Shooter game created with Unity and C#. A throwback to classic arcade-style space shooters.
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://github.com/josephtkim/super-polyspawn-wars" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>            
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://github.com/josephtkim/a-bright-world" target="_blank">
+                  <img src="./resources/img/a_bright_world.png" width="100%" alt="A Bright World"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">A Bright World</div>
+                     
+                  <div class="project-languages">          
+                    <span class="language-javascript language-tab">JavaScript</span>
+                    <span class="language-html language-tab">HTML</span>
+                    <span class="language-css language-tab">CSS</span>
+                                          
+                  </div>
+
+                  <div class="project-description">
+                    An incremental browser game where you buy and upgrade different building types to gain resources.
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://github.com/josephtkim/a-bright-world" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>         
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single project block -->
+              <div class="project-block">                  
+                <a href="https://github.com/josephtkim/productivity-helper" target="_blank">
+                  <img src="./resources/img/productivity_helper.png" width="100%" alt="Productivity Helper"/>
+                </a>         
+    
+                <div class="project-info">
+                  <div class="project-title">Productivity Helper</div>
+                     
+                  <div class="project-languages">          
+                    <span class="language-python language-tab">Python</span>
+                    <span class="language-html language-tab">HTML</span>
+                    <span class="language-css language-tab">CSS</span>
+                                          
+                  </div>
+
+                  <div class="project-description">
+                    An application created with Django that helps you keep track of your tasks and long-term goals.
+                  </div>
+                  
+                  <div class="project-links">                      
+                    <a href="https://github.com/josephtkim/productivity-helper" target="_blank">
+                      <div class="project-github-link project-link-button">
+                      Project
+                      </div>
+                    </a>           
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <!-- END Container for all projects -->        
+        </div>
+      </div>
+        
+      <!-- Contact section -->
+      <div class="container" id="contact">
+
+        <div class="container" id="contact-section">          
+          <div class="contact-column">
+            <div class="contact-heading">Links</div>
+
+            <div class="contact-text">
+              I'm always open to new opportunities, ideas, or even just to chat. 
+			  Feel free to connect with me on LinkedIn or shoot an email.
+            </div>              
+
+            <div class="contact-icon-container">
+              <div class="contact-icon">
+                <a href="https://www.linkedin.com/in/josephtaewookim/" target="_blank">
+                  <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="contact-icon">
+                <a href="https://github.com/josephtkim/" target="_blank">
+                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="contact-icon">
+                <a href="mailto:joseph.tawu.kim@gmail.com">
+                  <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- End site container -->  
+    </div>
+
+    <div class="container" id="footer">2023 Made by Joseph Kim</div>
+
+    <!-- Scripts -->
+    <!-- jquery -->    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <script>
+      $("#home-button").click(function(e) {
+        e.preventDefault();
+        
+        $('.navbar-collapse').removeClass('show');
+        $('.navbar-toggler').addClass('collapsed');
+        $('.navbar-toggler').attr('aria-expanded', 'false');
+
+        $('html, body').animate({
+          scrollTop: $("#home-page-main").offset().top},
+          'slow');
+        });      
+
+      $("#about-button").click(function(e) {
+        e.preventDefault();
+          
+        $('.navbar-collapse').removeClass('show');
+        $('.navbar-toggler').addClass('collapsed');
+        $('.navbar-toggler').attr('aria-expanded', 'false');
+
+        $('html, body').animate({
+          scrollTop: $("#about").offset().top},
+          'slow');
+        });   
+
+      $("#projects-button").click(function(e) {
+        e.preventDefault();
+          
+        $('.navbar-collapse').removeClass('show');
+        $('.navbar-toggler').addClass('collapsed');
+        $('.navbar-toggler').attr('aria-expanded', 'false');
+
+        $('html, body').animate({
+          scrollTop: $("#projects").offset().top},
+          'slow');
+        });   
+
+      $("#contact-button").click(function(e) {
+        e.preventDefault();
+          
+        $('.navbar-collapse').removeClass('show');
+        $('.navbar-toggler').addClass('collapsed');
+        $('.navbar-toggler').attr('aria-expanded', 'false');
+
+        $('html, body').animate({
+          scrollTop: $("#contact").offset().top},
+          'slow');
+        });
+
+    </script>
+
+  </body>
+</html>
